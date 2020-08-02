@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.gudenau.minecraft.mc144761.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "SpriteAccessor",
+    "Sprite$InterpolationMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "mc144761",
+  "version": "${version}",
+
+  "name": "Fixes mc-144761",
+  "description": "Mojang is bad at code.",
+  "authors": [
+    "gudenau"
+  ],
+  "contact": {
+    "homepage": "https://bugs.mojang.com/browse/MC-144761",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/mc144761/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": []
+  },
+  "mixins": [
+    "mc144761.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+  }
+}
